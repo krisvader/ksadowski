@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Product & Service Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-gray-800">
+
+    <!-- Main Container -->
+    <div class="container mx-auto max-w-4xl py-12 sm:py-20 px-6">
+        
+        <div id="main-content">
+            <!-- Header/Intro Section -->
+            <div class="bg-white/70 backdrop-blur-sm shadow-lg rounded-xl transition-all duration-300 hover:shadow-2xl gradient-shadow overflow-hidden">
+                <div class="p-8 sm:p-12">
+                    <div class="flex flex-col items-center text-center">
+                        <!-- Profile Picture -->
+                        <img class="w-32 h-32 rounded-full shadow-md border-4 border-white object-cover" src="https://placehold.co/200x200/EFEFEF/333333?text=JD" alt="Profile Picture of John Doe">
+
+                        <!-- Name and Title -->
+                        <h1 class="text-4xl font-bold text-gray-900 mt-6">John Doe</h1>
+                        <p class="text-xl text-gray-600 mt-2">Product Manager | Service Design for SaaS</p>
+
+                        <!-- About Me Section -->
+                        <p class="text-base text-gray-700 mt-6 max-w-2xl mx-auto leading-relaxed">
+                            I build and scale user-centered SaaS products by blending product strategy with service design principles. My focus is on creating intuitive, valuable, and seamless experiences that drive business growth and customer loyalty.
+                        </p>
+                        
+                        <!-- Skills Section -->
+                        <div class="mt-8 flex flex-wrap justify-center gap-2">
+                            <span class="bg-gray-200 text-gray-800 text-sm font-medium px-4 py-1.5 rounded-full">Product Strategy</span>
+                            <span class="bg-gray-200 text-gray-800 text-sm font-medium px-4 py-1.5 rounded-full">Service Design</span>
+                            <span class="bg-gray-200 text-gray-800 text-sm font-medium px-4 py-1.5 rounded-full">User Research</span>
+                            <span class="bg-gray-200 text-gray-800 text-sm font-medium px-4 py-1.5 rounded-full">Agile Methodologies</span>
+                            <span class="bg-gray-200 text-gray-800 text-sm font-medium px-4 py-1.5 rounded-full">SaaS Growth</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services Section -->
+            <div id="services" class="mt-16 sm:mt-20">
+                <h2 class="text-3xl font-bold text-center text-gray-900">How I Can Help</h2>
+                <p class="text-center text-gray-600 mt-2">I offer end-to-end product leadership to bring your vision to life.</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                    <!-- Service 1: Service Design -->
+                    <div class="service-card bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300" data-target="service-design-page">
+                        <h3 class="text-xl font-semibold text-gray-900">Service Design Methodology</h3>
+                        <p class="mt-3 text-gray-700">I map out entire customer journeys to identify pain points and opportunities. By designing holistic service blueprints, we can create a seamless and cohesive user experience across all touchpoints.</p>
+                    </div>
+
+                    <!-- Service 2: Product Strategy -->
+                    <div class="service-card bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300" data-target="product-strategy-page">
+                        <h3 class="text-xl font-semibold text-gray-900">Product Strategy & Roadmapping</h3>
+                        <p class="mt-3 text-gray-700">I help define a clear vision for your product, aligned with business goals. This includes market analysis, competitive research, and creating a prioritized roadmap that delivers continuous value.</p>
+                    </div>
+                    
+                    <!-- Service 3: User Research -->
+                    <div class="service-card bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300" data-target="user-research-page">
+                        <h3 class="text-xl font-semibold text-gray-900">User Research & Insights</h3>
+                        <p class="mt-3 text-gray-700">Understanding the user is key. I conduct in-depth user research to gather actionable insights that inform product decisions, ensuring we build what customers truly need and want.</p>
+                    </div>
+
+                    <!-- Service 4: Agile Leadership -->
+                    <div class="service-card bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300" data-target="agile-leadership-page">
+                        <h3 class="text-xl font-semibold text-gray-900">Agile Product Leadership</h3>
+                        <p class="mt-3 text-gray-700">I lead cross-functional teams using agile methodologies to ensure efficient product development. From writing user stories to managing backlogs, I facilitate a collaborative process.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action Section -->
+            <div class="mt-16 sm:mt-20 text-center">
+                 <div class="bg-white/70 backdrop-blur-sm p-8 sm:p-12 rounded-xl shadow-lg">
+                    <h2 class="text-3xl font-bold text-gray-900">Ready to build something great?</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Let's connect and discuss how I can help elevate your product and delight your users.</p>
+                    <a href="mailto:john.doe@email.com" class="mt-8 inline-block bg-blue-600 text-white font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Footer / Social Links -->
+            <div class="mt-16 sm:mt-20 border-t border-gray-200 pt-8">
+                <div class="flex justify-center items-center space-x-6">
+                    <a href="#" class="text-gray-500 hover:text-gray-900 transition-colors duration-300" aria-label="LinkedIn Profile">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900 transition-colors duration-300" aria-label="Twitter Profile">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:john.doe@email.com" class="text-gray-500 hover:text-gray-900 transition-colors duration-300" aria-label="Email">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/>
+                        </svg>
+                    </a>
+                </div>
+                <p class="text-center text-gray-500 text-sm mt-6">&copy; 2024 John Doe. All Rights Reserved.</p>
+            </div>
+        </div>
+
+        <!-- Service Sub-Pages Container -->
+        <div id="service-pages-container">
+            <!-- Service Detail: Service Design -->
+            <div id="service-design-page" class="service-page hidden">
+                <a href="#" class="back-button text-blue-600 hover:underline mb-8 inline-block">&larr; Back to all services</a>
+                <h2 class="text-4xl font-bold text-gray-900">Service Design Methodology</h2>
+                <p class="text-lg text-gray-600 mt-4">Great products are built on a deep understanding of the entire customer experience. I use service design to create a holistic view of how customers interact with your business, ensuring every touchpoint is intentional, consistent, and valuable.</p>
+                <div class="mt-8 prose prose-lg max-w-none">
+                    <p>My process involves creating detailed customer journey maps and service blueprints. This visualizes the entire ecosystem—from the user's initial awareness to long-term loyalty—highlighting moments of frustration and opportunities for delight. By addressing the front-stage (what customers see) and back-stage (internal processes), we can build a truly seamless experience.</p>
+                    <h3 class="font-semibold mt-8">Potential Business Impact:</h3>
+                    <div class="grid md:grid-cols-2 gap-6 mt-4">
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Up to 30% reduction</strong> in customer support tickets by proactively solving user issues.</div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Increase customer retention</strong> and LTV by designing for loyalty and satisfaction.</div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Improve Net Promoter Score (NPS)</strong> by delivering a consistently positive experience.</div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Streamline operations</strong> by aligning back-stage processes with front-stage user actions.</div>
+                    </div>
+                </div>
+
+                <!-- Case Study Section -->
+                <div class="mt-12 pt-8 border-t border-gray-200">
+                    <h3 class="text-3xl font-bold text-gray-900">Case Study: Redesigning a B2B SaaS Platform</h3>
+                    <div class="mt-4 prose prose-lg max-w-none">
+                        <p><strong>Client:</strong> TechCorp Inc., a mid-size enterprise software provider.</p>
+                        <p><strong>Challenge:</strong> The client's flagship product suffered from low user engagement and high churn rates due to a complex and unintuitive interface. They needed to create a more user-friendly experience without disrupting existing customer workflows.</p>
+                        <p><strong>Outcome:</strong> Through comprehensive service mapping and user journey analysis, we redesigned the entire user experience. The project resulted in a <strong>40% increase in user satisfaction scores</strong>, a <strong>25% reduction in onboarding time</strong>, and a significant decrease in customer churn within six months of launch.</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Section -->
+                <div class="mt-12">
+                    <h3 class="text-3xl font-bold text-gray-900">Project Gallery</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+                        <img src="https://placehold.co/600x400/EFEFEF/333333?text=Journey+Map" alt="Customer Journey Map" class="rounded-lg shadow-md w-full h-auto object-cover aspect-video">
+                        <img src="https://placehold.co/600x400/EFEFEF/333333?text=Service+Blueprint" alt="Service Blueprint" class="rounded-lg shadow-md w-full h-auto object-cover aspect-video">
+                        <img src="https://placehold.co/600x400/EFEFEF/333333?text=Wireframes" alt="Wireframes" class="rounded-lg shadow-md w-full h-auto object-cover aspect-video">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service Detail: Product Strategy -->
+            <div id="product-strategy-page" class="service-page hidden">
+                <a href="#" class="back-button text-blue-600 hover:underline mb-8 inline-block">&larr; Back to all services</a>
+                <h2 class="text-4xl font-bold text-gray-900">Product Strategy & Roadmapping</h2>
+                <p class="text-lg text-gray-600 mt-4">A winning product needs a clear vision and a strategic path to achieve it. I work with leadership teams to define a product strategy that aligns with your business objectives, finds a strong market fit, and sets you apart from the competition.</p>
+                <div class="mt-8 prose prose-lg max-w-none">
+                    <p>This process starts with deep market and competitive analysis to identify unique opportunities. From there, we build a clear product vision and a prioritized, theme-based roadmap. This roadmap isn't just a list of features; it's a strategic communication tool that outlines how we'll deliver value to customers over time, enabling your team to stay focused and aligned.</p>
+                    <h3 class="font-semibold mt-8">Potential Business Impact:</h3>
+                     <div class="grid md:grid-cols-2 gap-6 mt-4">
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Up to 20% faster</strong> time-to-market by focusing on high-impact initiatives.</div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Increase revenue</strong> from new features by solving real customer problems.</div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Improve stakeholder confidence</strong> and team alignment with a clear, strategic roadmap.</div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Enhance market positioning</strong> by focusing on unique value propositions.</div>
+                    </div>
+                </div>
+
+                <!-- Case Study Section -->
+                <div class="mt-12 pt-8 border-t border-gray-200">
+                    <h3 class="text-3xl font-bold text-gray-900">Case Study: Launching a New Mobile App</h3>
+                    <div class="mt-4 prose prose-lg max-w-none">
+                        <p><strong>Client:</strong> ConnectApp, a startup in the social networking space.</p>
+                        <p><strong>Challenge:</strong> The client had a validated idea but needed a clear strategy to enter a crowded market. They required a product roadmap that focused on a minimum viable product (MVP) to test their core hypothesis quickly.</p>
+                        <p><strong>Outcome:</strong> We developed a phased product strategy that prioritized key differentiators. The resulting roadmap allowed the team to launch their MVP <strong>3 months ahead of initial estimates</strong>, securing a crucial round of seed funding based on strong early adoption metrics.</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Section -->
+                <div class="mt-12">
+                    <h3 class="text-3xl font-bold text-gray-900">Project Gallery</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+                        <img src="https://placehold.co/600x400/EFEFEF/333333?text=Market+Research" alt="Market Research" class="rounded-lg shadow-md w-full h-auto object-cover aspect-video">
+                        <img src="https://placehold.co/600x400/EFEFEF/333333?text=Roadmap" alt="Product Roadmap" class="rounded-lg shadow-md w-full h-auto object-cover aspect-video">
+                        <img src="https://placehold.co/600x400/EFEFEF/333333?text=Comp.+Analysis" alt="Competitive Analysis" class="rounded-lg shadow-md w-full h-auto object-cover aspect-video">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service Detail: User Research -->
+            <div id="user-research-page" class="service-page hidden">
+                <a href="#" class="back-button text-blue-600 hover:underline mb-8 inline-block">&larr; Back to all services</a>
+                <h2 class="text-4xl font-bold text-gray-900">User Research & Insights</h2>
+                <p class="text-lg text-gray-600 mt-4">Building a successful product means replacing assumptions with insights. I employ a mixed-methods approach to user research to uncover the underlying needs, behaviors, and motivations of your target audience.</p>
+                <div class="mt-8 prose prose-lg max-w-none">
+                    <p>From one-on-one interviews and contextual inquiries to surveys and usability testing, I gather both qualitative and quantitative data. These insights are synthesized into actionable recommendations, personas, and user stories that empower your team to make informed, user-centered decisions at every stage of the product development lifecycle.</p>
+                    <h3 class="font-semibold mt-8">Potential Business Impact:</h3>
+                    <div class="grid md:grid-cols-2 gap-6 mt-4">
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Up to 50% increase</strong> in user task completion rates through improved usability.</div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Reduce development rework</strong> by validating ideas and designs before writing code.</div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Boost adoption and conversion</strong> by building features users genuinely need.</div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Drive innovation</strong> with a deep understanding of unmet user needs.</div>
+                    </div>
+                </div>
+
+                 <!-- Case Study Section -->
+                <div class="mt-12 pt-8 border-t border-gray-200">
+                    <h3 class="text-3xl font-bold text-gray-900">Case Study: Validating a Core Feature Concept</h3>
+                    <div class="mt-4 prose prose-lg max-w-none">
+                        <p><strong>Client:</strong> FinTech Solutions, an established financial services company.</p>
+                        <p><strong>Challenge:</strong> The company wanted to invest in a major new feature but was unsure of its market viability. They needed to validate the core concept with real users before committing significant development resources.</p>
+                        <p><strong>Outcome:</strong> We conducted a series of in-depth user interviews and prototype tests. The research revealed critical insights that led to a <strong>major pivot in the feature's direction</strong>, saving an estimated <strong>$200,000 in development costs</strong> by avoiding building the wrong solution.</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Section -->
+                <div class="mt-12">
+                    <h3 class="text-3xl font-bold text-gray-900">Project Gallery</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+                        <img src="https://placehold.co/600x400/EFEFEF/333333?text=User+Interviews" alt="User Interviews" class="rounded-lg shadow-md w-full h-auto object-cover aspect-video">
+                        <img src="https://placehold.co/600x400/EFEFEF/333333?text=Affinity+Mapping" alt="Affinity Mapping" class="rounded-lg shadow-md w-full h-auto object-cover aspect-video">
+                        <img src="https://placehold.co/600x400/EFEFEF/333333?text=Personas" alt="User Personas" class="rounded-lg shadow-md w-full h-auto object-cover aspect-video">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Service Detail: Agile Leadership -->
+            <div id="agile-leadership-page" class="service-page hidden">
+                <a href="#" class="back-button text-blue-600 hover:underline mb-8 inline-block">&larr; Back to all services</a>
+                <h2 class="text-4xl font-bold text-gray-900">Agile Product Leadership</h2>
+                <p class="text-lg text-gray-600 mt-4">Ideas are nothing without execution. I provide hands-on leadership to guide cross-functional teams in an agile environment, fostering a culture of collaboration, transparency, and continuous improvement.</p>
+                <div class="mt-8 prose prose-lg max-w-none">
+                    <p>As a product leader, I bridge the gap between strategy and execution. This involves managing and prioritizing the product backlog, writing clear user stories with acceptance criteria, and facilitating agile ceremonies like sprint planning and retrospectives. My goal is to empower the team to ship high-quality software frequently and adapt quickly to changing priorities and user feedback.</p>
+                    <h3 class="font-semibold mt-8">Potential Business Impact:</h3>
+                    <div class="grid md:grid-cols-2 gap-6 mt-4">
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Improve team velocity</strong> and predictability, leading to more consistent delivery.</div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Up to 40% reduction</strong> in bug-related rework by focusing on quality and feedback.</div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Increase team morale</strong> and ownership by creating a clear, collaborative process.</div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm"><strong>Boost product quality</strong> through iterative feedback loops and continuous improvement.</div>
+                    </div>
+                </div>
+
+                 <!-- Case Study Section -->
+                <div class="mt-12 pt-8 border-t border-gray-200">
+                    <h3 class="text-3xl font-bold text-gray-900">Case Study: Scaling an Engineering Team</h3>
+                    <div class="mt-4 prose prose-lg max-w-none">
+                        <p><strong>Client:</strong> GrowthStage Analytics, a fast-growing data analytics startup.</p>
+                        <p><strong>Challenge:</strong> The development team was struggling with missed deadlines and declining code quality as the company grew. They needed to implement a more structured agile process to handle increasing complexity.</p>
+                        <p><strong>Outcome:</strong> By introducing a tailored Scrum framework and coaching the team on agile best practices, we improved their delivery predictability by <strong>70% within three months</strong>. The team's velocity doubled, and bug reports decreased, allowing them to ship features faster and more reliably.</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Section -->
+                <div class="mt-12">
+                    <h3 class="text-3xl font-bold text-gray-900">Project Gallery</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+                        <img src="https://placehold.co/600x400/EFEFEF/333333?text=Kanban+Board" alt="Kanban Board" class="rounded-lg shadow-md w-full h-auto object-cover aspect-video">
+                        <img src="https://placehold.co/600x400/EFEFEF/333333?text=Sprint+Review" alt="Sprint Review" class="rounded-lg shadow-md w-full h-auto object-cover aspect-video">
+                        <img src="https://placehold.co/600x400/EFEFEF/333333?text=Team+Workshop" alt="Team Workshop" class="rounded-lg shadow-md w-full h-auto object-cover aspect-video">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const mainContent = document.getElementById('main-content');
+        const serviceCards = document.querySelectorAll('.service-card');
+        const backButtons = document.querySelectorAll('.back-button');
+        const servicesSection = document.getElementById('services');
+
+        const showPage = (pageId) => {
+            mainContent.classList.add('hidden');
+            document.querySelectorAll('.service-page').forEach(page => page.classList.add('hidden'));
+            const targetPage = document.getElementById(pageId);
+            if (targetPage) {
+                targetPage.classList.remove('hidden');
+                window.scrollTo(0, 0);
+            }
+        };
+
+        const showMainContent = () => {
+             document.querySelectorAll('.service-page').forEach(page => page.classList.add('hidden'));
+            mainContent.classList.remove('hidden');
+        };
+
+        serviceCards.forEach(card => {
+            card.addEventListener('click', () => {
+                const pageId = card.getAttribute('data-target');
+                showPage(pageId);
+            });
+        });
+
+        backButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                showMainContent();
+                if(servicesSection) {
+                    servicesSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
